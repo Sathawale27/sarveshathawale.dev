@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+      <title>Sarvesh Athawale - {{ page.title }}</title>
+	  
+      <!-- Font & Resources  -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/static/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		
+      <!-- Color that browsers should use to customize the display  -->
+      <meta name="theme-color" content="#F8FAFB">
+	  
+      <!-- Favicon  -->
+      <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/c68a12b7e23d61ca83670602b0f96349?s=32" sizes="32x32" />
+      <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/c68a12b7e23d61ca83670602b0f96349?s=16" sizes="16x16" />
+	  
+      <meta name="og:type" content="website">
+      <meta name="og:title" content="{{ page.title }}">
+      <meta name="og:description" content="Blog posts, GitHub, and more.">
+      <meta name="og:site_name" content="Sarvesh Athawale">
+      <meta name="og:url" content="{{ site.url }}">
+      <meta name="og:image" content="https://s.gravatar.com/avatar/c68a12b7e23d61ca83670602b0f96349?s=500">
+	  
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@Sathawale27" />
+      <meta name="twitter:domain" content="sarveshathawale.dev">
+      <meta name="twitter:title" content="{{ page.title }}" />
+      <meta name="twitter:description" content="Blog posts, GitHub, and more." />
+      <meta name="twitter:image" content="https://s.gravatar.com/avatar/c68a12b7e23d61ca83670602b0f96349?s=500" />
+      <meta name="twitter:url" content="{{ site.url }}" />
+   </head>
+   <body>
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light">
+			<span class="navbar-brand mb-0 h1">Sarvesh Athawale</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#"><span class="active">Blogs<span></a>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://github.com/Sathawale27">GitHub</a>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://stackoverflow.com/users/6875271/sarvesh-athawale">Stack Overflow</a>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://twitter.com/sathawale27">Twitter</a>
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://in.linkedin.com/in/sarvesh-athawale-b9069098">Linked In</a>
+					</li>	
+				</ul>
+			</div>
+		</nav>
+		<div class="mt-5 ml-5">
+			{{ content }}
+		</div>
+   </body>
+</html>

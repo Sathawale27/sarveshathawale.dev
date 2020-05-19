@@ -1,0 +1,7 @@
+url: "http:://sarveshathawale.dev"
+
+highlighter: rouge
+permalink: /:title/
+markdown: kramdown
+
+future: true
